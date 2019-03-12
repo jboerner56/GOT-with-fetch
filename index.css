@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+body > *{
+    border: 1px solid greenyellow;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+
+}
+.index-container{
+
+}
+.main-content{
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.listing, 
+.detail{
+    background-color: blue;
+    color: white;
+}
+.listing{
+    width: 25%;
+
+}
+.detail{
+    width: 75%;
+    
+}
